@@ -1,0 +1,29 @@
+.event{
+    height: 90px;position: relative;background-color: #000;overflow: hidden;border-radius: 3px 3px 0 0;
+}
+.event img.vignette{ 
+    object-fit: cover;
+    position: absolute;
+    top: 0;left: 0;height: 90px;width: 100%; transition: all .2s ease-in-out;
+        
+}
+
+img.vignette:hover {
+    
+    transform: rotate(3deg) scale(1.40);}
+
+.event h3.event-titre {
+    position: absolute;
+    top: 0;
+    left: 5;
+    background-color: rgba(0,0,0,0.8);;padding: 5px;border-radius: 0 0 3px 0
+}
+
+.info-event{background: #fff;color: #000;margin-bottom: 18px;height: 20px;padding-left: 8px;padding-right: 8px;border-radius: 0 0 3px 3px;margin-top: -20px}
+.info-event p{line-height: 20px;font-size: 14px}
+.info-event p span.right{font-style: italic;font-size: 13px}
+.left{float: left}
+.right{float: right}
+.block-event{-webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);}
